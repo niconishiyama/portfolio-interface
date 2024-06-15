@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(0, 0, 0);
+    background: linear-gradient(to bottom, #000000, #1f17ad);
     color: white;
 
     display: flex;
@@ -8,14 +8,11 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
+    padding: 0;
 }
 
 .font {
     font-family: "Montserrat";
-}
-
-.white{
-    color: white;
 }
 
 h1 {
@@ -34,9 +31,9 @@ p{
 
 a {
     color: white;
-    background-color: rgba(169, 169, 169, 0);
+    background-color: rgba(255, 255, 255, 0);
     text-decoration: none;
-    padding: 1rem 1rem;
+    padding: 1rem 1rem; /* altera altura e largura */
     font-weight: 500;
     font-size: 1.5rem;
     border-radius: .5rem;
@@ -45,7 +42,7 @@ a {
 }
 
 a:hover {
-    background-color: #0033bf44;
+    background-color: #a4b6e844;
 }
 
 ul {
